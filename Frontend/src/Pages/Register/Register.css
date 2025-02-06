@@ -1,0 +1,86 @@
+.Register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: #ffffff;
+}
+
+.Register-box {
+  display: flex;
+  width: 600px;
+  height: 350px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: white;
+}
+
+.Register-Left-side {
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Register-Right-side {
+  width: 50%;
+  background-color: #f04e23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.Register-heading {
+  font-size: 24px;
+  font-family: "outfit";
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-left: 70px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.Register-input {
+  width: 100%;
+  padding: 4px;
+  margin: 5px 0 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Register-button {
+  width: 100%;
+  padding: 7px;
+  background-color: #f04e23;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.Register-button:hover {
+  background-color: #d43f1f;
+}
+
+.Register-para {
+  margin-top: 10px;
+}
+
+.Register-Login-link {
+  color: #f04e23;
+  font-family: "inter";
+  text-decoration: none;
+}
+
+.Register-pic {
+  width: 300px;
+}
